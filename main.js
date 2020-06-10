@@ -121,6 +121,7 @@ function startNewGame(){
 		square.addEventListener('click',set);//clicking event is add
 	})
 	document.getElementById('turn').textContent='Player '+turn;
+	document.getElementById('cnt').textContent='Moves => X='+ movesX +'/'+ tempMaxMovesX +', O='+ movesO +'/'+tempMaxMovesO;
 }
 
 // remove
@@ -1483,7 +1484,7 @@ function set(){
 		}
 	}
 }
-document.getElementById('cnt').textContent='X='+ movesX +'/'+ tempMaxMovesX +', O='+ movesO +'/'+tempMaxMovesO;
+document.getElementById('cnt').textContent='Moves => X='+ movesX +'/'+ tempMaxMovesX +', O='+ movesO +'/'+tempMaxMovesO;
 }
 
 
