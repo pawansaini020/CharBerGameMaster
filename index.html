@@ -1,0 +1,419 @@
+
+<!--
+@Authoer : Pawan_Saini
+@Github : pawanmawata020
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>CHAR BER GAME</title>
+
+	<!-- add icon link -->
+        <link rel = "shortcut icon" href =  "char_ber_.jpg" type = "jpg">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+
+    
+
+ <div id="game-div" class="container">  
+
+
+
+  <div class="Header">
+    <h3><b> CHAR &nbspBER &nbspGAME<b></h3>
+    <span id="cnt" align="">X=0/6, O=0/6</span>
+  </div>
+ 
+
+
+
+
+  <div>
+
+
+
+    <a class="boxes" id="box1"></a>
+
+    <svg width="342" height="10">
+  		<line x1="0" y1="5" x2="342" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box2"></a>
+  	<svg width="342" height="10">
+    		<line x1="0" y1="5" x2="342" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+  	</svg>
+
+    <a class="boxes" id="box3"></a>
+
+
+
+
+
+
+  	<br>
+
+      <svg width="860" height="50">
+    		<line x1="30" y1="4" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    		<line x1="440" y1="4" x2="440" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    		<line x1="850" y1="4" x2="850" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+
+    		<line x1="65" y1="4" x2="120" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="820" y1="4" x2="765" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+  	</svg>
+
+  	<br>
+
+
+
+
+
+
+    <svg width="120" height="50">
+      <line x1="30" y1="0" x2="30" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+	 <a class="boxes" id="box4"></a>
+
+    <svg width="215" height="10">
+  		<line x1="0" y1="5" x2="215" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box5"></a>
+  	<svg width="215" height="10">
+    		<line x1="0" y1="5" x2="215" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+  	</svg>
+
+    <a class="boxes" id="box6"></a>
+
+
+    <svg width="100" height="50">
+      <line x1="90" y1="0" x2="90" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+
+
+
+
+  	<br>
+
+      <svg width="860" height="50">
+    		<line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="440" y1="4" x2="440" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="725" y1="4" x2="725" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="850" y1="0" x2="850" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+
+        <line x1="190" y1="4" x2="240" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="690" y1="5" x2="645" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+  	</svg>
+
+  	<br>
+
+
+
+
+
+
+
+    <svg width="243" height="50">
+      <line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+	 <a class="boxes" id="box7"></a>
+
+    <svg width="95" height="10">
+  		<line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box8"></a>
+  	<svg width="95" height="10">
+    		<line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+  	</svg>
+
+    <a class="boxes" id="box9"></a>
+
+
+
+
+
+    <svg width="250" height="50">
+      <line x1="82" y1="0" x2="82" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="208" y1="0" x2="208" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      
+    </svg>
+
+    <br>
+
+    <svg width="860" height="90">
+      <line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="275" y1="4" x2="275" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="610" y1="4" x2="608" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="728" y1="0" x2="728" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="853" y1="4" x2="853" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+
+    <br>
+
+
+
+
+
+    <a class="boxes" id="box10"></a>
+
+    <svg width="54" height="10">
+      <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box11"></a>
+    <svg width="54" height="10">
+        <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box12"></a>
+
+
+
+
+
+
+    <svg width="256" height="10">
+    </svg>
+
+
+
+    <a class="boxes" id="box13"></a>
+
+    <svg width="55" height="10">
+      <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box14"></a>
+    <svg width="55" height="10">
+        <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box15"></a>
+
+
+
+
+
+
+    <br>
+
+     <svg width="860" height="90">
+      <line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="275" y1="4" x2="275" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="610" y1="4" x2="608" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="728" y1="0" x2="728" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="853" y1="4" x2="853" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+
+
+    <br>
+
+
+
+
+
+
+
+    <svg width="243" height="50">
+      <line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+   <a class="boxes" id="box16"></a>
+
+    <svg width="95" height="10">
+      <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box17"></a>
+    <svg width="95" height="10">
+        <line x1="0" y1="5" x2="100" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box18"></a>
+
+
+
+
+
+    <svg width="250" height="50">
+      <line x1="82" y1="0" x2="82" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      <line x1="208" y1="0" x2="208" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+      
+    </svg>
+
+
+
+    <br>
+    <svg width="860" height="50">
+        <line x1="30" y1="0" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="155" y1="0" x2="155" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="440" y1="4" x2="440" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="725" y1="4" x2="725" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="850" y1="0" x2="850" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+
+        <line x1="190" y1="50" x2="240" y2="4" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="690" y1="50" x2="645" y2="4" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+    <br>
+
+
+
+
+
+
+    <svg width="120" height="50">
+      <line x1="30" y1="0" x2="30" y2="50" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+   <a class="boxes" id="box19"></a>
+
+    <svg width="215" height="10">
+      <line x1="0" y1="5" x2="215" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box20"></a>
+    <svg width="215" height="22">
+        <line x1="0" y1="5" x2="215" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box21"></a>
+
+
+    <svg width="100" height="50">
+      <line x1="90" y1="0" x2="90" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+
+
+
+    <br>
+    <svg width="860" height="50">
+        <line x1="30" y1="4" x2="30" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="440" y1="4" x2="440" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="850" y1="4" x2="850" y2="200" style="stroke:rgb(200,0,0);stroke-width:2" />
+
+        <line x1="65" y1="50" x2="120" y2="4" style="stroke:rgb(200,0,0);stroke-width:2" />
+        <line x1="820" y1="50" x2="760" y2="4" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <br>
+
+
+
+
+
+
+
+    <a class="boxes" id="box22"></a>
+
+    <svg width="342" height="10">
+      <line x1="0" y1="5" x2="342" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box23"></a>
+    <svg width="342" height="10">
+      <line x1="0" y1="5" x2="342" y2="5" style="stroke:rgb(200,0,0);stroke-width:2" />
+    </svg>
+
+    <a class="boxes" id="box24"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+    <div id="player" align="center">
+          <span id="turn" align="">Player X</span>
+      
+        <div class="restart">
+            <button class="buttonColor" onclick=startNewGame()>Restart</button>
+        </div>
+
+        <div class="help">
+            <button class="buttonColor" onclick=helpbtn()>Help</button>
+        </div>
+
+        <div class="reset">
+            <button class="buttonColor" onclick=startNewGame()>Reset</button>
+        </div> 
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div id="help-div" class="help-class">
+    <h1>Help  </h1>
+    <p>How to play the game:</p>
+    
+    <ol>
+      <li>In the game you are given a 3x3 grid.</li>
+      <li>The player who is playing "X" always goes first. Players alternate placing 'X's and 'O's on the board till 3 moves each.</li>
+
+      <li>Then players alternate can move its position to the neighbour box till winner.</li>
+      <li>For win the game, you have to place your all 3 'X' or 'O' in a straight or diagnol line.</li>
+
+
+    </ol>
+
+    <h1>About Developer</h1>
+    <p>I am Pawan Saini, a bachelor student in Electrical Engineering at IIT Bhubaneswar </p> 
+
+    <h1>Contacts: </h1>
+    <p>You are welcome for any open contribution or any queries.
+
+    <ul>
+      <li>Github Id: @pawansaini020</li>
+      <li>Email Id: ps21@iitbbs.ac.in </li>
+    </ul>
+    </p>
+
+    <button class="buttonColor" onclick=backbtn()>Back</button>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
