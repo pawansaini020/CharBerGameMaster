@@ -7,11 +7,13 @@ Tools and language:
 3. HTML
 
 # How to play
-1. In the game you are given a 3x3 grid.
-2. The player who is playing "X" always goes first. Players alternate placing 'X's and 'O's on the board till 3 moves each.
-3. Then players alternate can move its position to the neighbour box till winner.
-4. For win the game, you have to place your all 3 'X' or 'O' in a straight or diagnol line.
-
+1. In the game you are given a grid.
+2. There are two players 'X' and 'O'. Every player has 6 moves.
+3. The player who is playing "X" always goes first. Players alternate placing 'X's and 'O's on the board till 6 moves each.
+4. If any player gets a 'Char'(means # X in a stright line) then player can do a 'Ber'(remove a element) of opponent.
+5. The players can alternate move its position to the neighbour box if moves is not there.
+6. For win the game, you have to remove all element of the oponent player.
+7. If you make a ber then you are given 3 moves and you ber element will be removed.
 
 You are welcome for any open contribution or any queries.
 1. Github Id: @pawansaini020
